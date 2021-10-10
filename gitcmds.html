@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Git & Github</a>
+        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -18,49 +18,34 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"></a>
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"></a>
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
             </li>
           </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
       </nav>
     <h1 class='text-center'>Github and VCS (Version Control Sytem) using Git</h1>
     <div class="container-fluid">
-
-        <div class='row'>
-            <div class='col-sm-12'>
-                <h3>What is Git & Github?</h3>
-                <p> Git is a version control system that lets you manage and keep track of your source code history. 
-                    GitHub is a cloud-based hosting service that lets you manage Git repositories.
-                    If you have open-source projects that use Git, then GitHub is designed to help you better manage them </p>
-            </div>
-        </div>
-        <div class='row'>
-            <div class='col-sm-12'>
-                <p><strong>Step 1.1)</strong> Create an account on <a href='https://github.com/join'>Github</a>. </p>
-                <img src="./imgs/signup.png" class="img-fluid" alt="Signup on github">
-            </div>
-        </div>
-        <div class='row'>
-            <div class='col-sm-12'>
-                <p><strong>Step 1.2)</strong> Create a new remote repository. </p>
-                <img src="./imgs/create-rep.png" class="img-fluid" alt="Repo on github">
-            </div>
-        </div>
-        <div class='row'>
-            <div class='col-sm-12'>
-                <p><strong>Step 1.3)</strong> Choose a name and finish creating the repository. </p>
-                <img src="./imgs/done-repo.png" class="img-fluid" alt="Repo done on github">
-            </div>
-        </div>
-        <div class='row'>
-            <div class='col-sm-12'>
-                <p><strong>Step 1.4)</strong> Download and install <a href='https://git-scm.com/downloads'>Git</a>. </p>
-                <img src="./imgs/git.png" class="img-fluid" alt="Repo done on github">
-            </div>
-        </div>
         <h3 class='text-center'> Now, We will create a local repository using Git.</h2>
         <div class='row'>
             <div class='col-sm-12'>
@@ -108,18 +93,6 @@
             <div class='col-sm-12'>
                 <p><strong>Step 2.8)</strong> To your local repository to your remote one, use <code>git push -u origin *branch name*</code>. </p>
                 <img src="./imgs/git-push.png" class="img-fluid" alt="Repo done on github">
-            </div>
-        </div>
-        <h2 class='text-center'> Working with Branches</h2>
-        <div class='row'>
-            <div class='col-sm-12'>
-                <p>Github is all about working with branches. Branches help to seprate versions/parts of your code.</p>
-                <p><strong>Step 3.1 a)</strong> To create a new branch, use <code>git branch *branch name*</code> and then switch to it using <code>git checkout *branch name*</code> . </p>
-            </div>
-        </div>
-        <div class='row'>
-            <div class='col-sm-12'>
-                <p><strong>Step 3.1 b)</strong> However, you can use <code>git checkout -b *branch name*</code> to create and switch to that branch simultaneously. </p>
             </div>
         </div>
 
