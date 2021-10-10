@@ -21,6 +21,7 @@ img{
 }
 .nav-item{
     font-size: 1.2rem;
+    color: black;
 }
 .navbar-toggler{
     border: none;
