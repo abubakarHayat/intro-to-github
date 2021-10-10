@@ -6,6 +6,9 @@ body{
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     text-align:center;
 }
+img{
+    border:#9e92a6 6px solid;
+}
 .row{
     margin: 32px;
 }
